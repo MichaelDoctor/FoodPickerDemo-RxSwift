@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D75BD924D49BB54A92BBF0C /* Pods_FoodPickerDemo_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2441CCBBB7383C0A8AF4EC /* Pods_FoodPickerDemo_RxSwift.framework */; };
 		CA0714282634D7DF006F3339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0714272634D7DF006F3339 /* AppDelegate.swift */; };
 		CA07142A2634D7DF006F3339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0714292634D7DF006F3339 /* SceneDelegate.swift */; };
 		CA07142C2634D7DF006F3339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA07142B2634D7DF006F3339 /* ViewController.swift */; };
@@ -14,9 +15,14 @@
 		CA0714322634D7DF006F3339 /* FoodPickerDemo_RxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA0714302634D7DF006F3339 /* FoodPickerDemo_RxSwift.xcdatamodeld */; };
 		CA0714342634D7E1006F3339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0714332634D7E1006F3339 /* Assets.xcassets */; };
 		CA0714372634D7E1006F3339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0714352634D7E1006F3339 /* LaunchScreen.storyboard */; };
+		CA0714552634DB39006F3339 /* FoodItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0714532634DB39006F3339 /* FoodItem+CoreDataClass.swift */; };
+		CA0714562634DB39006F3339 /* FoodItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0714542634DB39006F3339 /* FoodItem+CoreDataProperties.swift */; };
+		CA07145C2634DBD7006F3339 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA07145B2634DBD7006F3339 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59B88B8BF4500EA6769D1E04 /* Pods-FoodPickerDemo-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodPickerDemo-RxSwift.release.xcconfig"; path = "Target Support Files/Pods-FoodPickerDemo-RxSwift/Pods-FoodPickerDemo-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C0167AB775283469F2CC59CD /* Pods-FoodPickerDemo-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodPickerDemo-RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-FoodPickerDemo-RxSwift/Pods-FoodPickerDemo-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		CA0714242634D7DF006F3339 /* FoodPickerDemo-RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodPickerDemo-RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0714272634D7DF006F3339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA0714292634D7DF006F3339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		CA0714332634D7E1006F3339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0714362634D7E1006F3339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0714382634D7E1006F3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0714532634DB39006F3339 /* FoodItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CA0714542634DB39006F3339 /* FoodItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CA07145B2634DBD7006F3339 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CA2441CCBBB7383C0A8AF4EC /* Pods_FoodPickerDemo_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodPickerDemo_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D75BD924D49BB54A92BBF0C /* Pods_FoodPickerDemo_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFF5B1A3D2D93F85E86B8253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0167AB775283469F2CC59CD /* Pods-FoodPickerDemo-RxSwift.debug.xcconfig */,
+				59B88B8BF4500EA6769D1E04 /* Pods-FoodPickerDemo-RxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CA07141B2634D7DF006F3339 = {
 			isa = PBXGroup;
 			children = (
 				CA0714262634D7DF006F3339 /* FoodPickerDemo-RxSwift */,
 				CA0714252634D7DF006F3339 /* Products */,
+				BFF5B1A3D2D93F85E86B8253 /* Pods */,
+				CE215D63044E82223710D945 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +80,11 @@
 		CA0714262634D7DF006F3339 /* FoodPickerDemo-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CA0714582634DB43006F3339 /* FoodItem */,
 				CA0714272634D7DF006F3339 /* AppDelegate.swift */,
 				CA0714292634D7DF006F3339 /* SceneDelegate.swift */,
 				CA07142B2634D7DF006F3339 /* ViewController.swift */,
+				CA07145B2634DBD7006F3339 /* DetailViewController.swift */,
 				CA07142D2634D7DF006F3339 /* Main.storyboard */,
 				CA0714332634D7E1006F3339 /* Assets.xcassets */,
 				CA0714352634D7E1006F3339 /* LaunchScreen.storyboard */,
@@ -70,6 +94,23 @@
 			path = "FoodPickerDemo-RxSwift";
 			sourceTree = "<group>";
 		};
+		CA0714582634DB43006F3339 /* FoodItem */ = {
+			isa = PBXGroup;
+			children = (
+				CA0714532634DB39006F3339 /* FoodItem+CoreDataClass.swift */,
+				CA0714542634DB39006F3339 /* FoodItem+CoreDataProperties.swift */,
+			);
+			path = FoodItem;
+			sourceTree = "<group>";
+		};
+		CE215D63044E82223710D945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2441CCBBB7383C0A8AF4EC /* Pods_FoodPickerDemo_RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA07143B2634D7E1006F3339 /* Build configuration list for PBXNativeTarget "FoodPickerDemo-RxSwift" */;
 			buildPhases = (
+				77C665683E37867E3B0CBB9B /* [CP] Check Pods Manifest.lock */,
 				CA0714202634D7DF006F3339 /* Sources */,
 				CA0714212634D7DF006F3339 /* Frameworks */,
 				CA0714222634D7DF006F3339 /* Resources */,
+				7D4F3FDE0F629980E2CFCD77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,15 +178,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77C665683E37867E3B0CBB9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodPickerDemo-RxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4F3FDE0F629980E2CFCD77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodPickerDemo-RxSwift/Pods-FoodPickerDemo-RxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodPickerDemo-RxSwift/Pods-FoodPickerDemo-RxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodPickerDemo-RxSwift/Pods-FoodPickerDemo-RxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA0714202634D7DF006F3339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0714562634DB39006F3339 /* FoodItem+CoreDataProperties.swift in Sources */,
 				CA0714322634D7DF006F3339 /* FoodPickerDemo_RxSwift.xcdatamodeld in Sources */,
+				CA0714552634DB39006F3339 /* FoodItem+CoreDataClass.swift in Sources */,
 				CA07142C2634D7DF006F3339 /* ViewController.swift in Sources */,
 				CA0714282634D7DF006F3339 /* AppDelegate.swift in Sources */,
 				CA07142A2634D7DF006F3339 /* SceneDelegate.swift in Sources */,
+				CA07145C2634DBD7006F3339 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +375,7 @@
 		};
 		CA07143C2634D7E1006F3339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0167AB775283469F2CC59CD /* Pods-FoodPickerDemo-RxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +395,7 @@
 		};
 		CA07143D2634D7E1006F3339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B88B8BF4500EA6769D1E04 /* Pods-FoodPickerDemo-RxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+framework module Pods_FoodPickerDemo_RxSwift {
+  umbrella header "Pods-FoodPickerDemo-RxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
