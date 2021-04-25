@@ -13,4 +13,4 @@ pod 'RxCocoa'
 # Install Pod dependencies
 pod install
 
-# Open workspace file
+# Work using workspace file

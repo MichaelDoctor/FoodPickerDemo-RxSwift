@@ -18,6 +18,7 @@
 		CA0714552634DB39006F3339 /* FoodItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0714532634DB39006F3339 /* FoodItem+CoreDataClass.swift */; };
 		CA0714562634DB39006F3339 /* FoodItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0714542634DB39006F3339 /* FoodItem+CoreDataProperties.swift */; };
 		CA07145C2634DBD7006F3339 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA07145B2634DBD7006F3339 /* DetailViewController.swift */; };
+		CA07145F2634E160006F3339 /* FoodItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA07145E2634E160006F3339 /* FoodItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CA0714532634DB39006F3339 /* FoodItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CA0714542634DB39006F3339 /* FoodItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CA07145B2634DBD7006F3339 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CA07145E2634E160006F3339 /* FoodItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemViewModel.swift; sourceTree = "<group>"; };
 		CA2441CCBBB7383C0A8AF4EC /* Pods_FoodPickerDemo_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodPickerDemo_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				CA0714272634D7DF006F3339 /* AppDelegate.swift */,
 				CA0714292634D7DF006F3339 /* SceneDelegate.swift */,
 				CA07142B2634D7DF006F3339 /* ViewController.swift */,
+				CA07145E2634E160006F3339 /* FoodItemViewModel.swift */,
 				CA07145B2634DBD7006F3339 /* DetailViewController.swift */,
 				CA07142D2634D7DF006F3339 /* Main.storyboard */,
 				CA0714332634D7E1006F3339 /* Assets.xcassets */,
@@ -230,6 +233,7 @@
 				CA0714552634DB39006F3339 /* FoodItem+CoreDataClass.swift in Sources */,
 				CA07142C2634D7DF006F3339 /* ViewController.swift in Sources */,
 				CA0714282634D7DF006F3339 /* AppDelegate.swift in Sources */,
+				CA07145F2634E160006F3339 /* FoodItemViewModel.swift in Sources */,
 				CA07142A2634D7DF006F3339 /* SceneDelegate.swift in Sources */,
 				CA07145C2634DBD7006F3339 /* DetailViewController.swift in Sources */,
 			);

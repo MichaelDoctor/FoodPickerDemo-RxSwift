@@ -11,6 +11,7 @@
         <!--View Controller-->
         <scene sceneID="TgO-Xz-1Im">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKX-a0-ZOC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="4MJ-Qb-jTd" customClass="ViewController" customModule="FoodPickerDemo_RxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7uR-mg-nXa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -26,14 +27,9 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="4MJ-Qb-jTd" id="dTl-Lg-EgT"/>
-                            <outlet property="delegate" destination="4MJ-Qb-jTd" id="8Iw-Zd-T2h"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="hqM-01-aIE"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xKX-a0-ZOC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="924.63768115942037" y="83.705357142857139"/>
         </scene>
@@ -81,6 +77,7 @@
         <!--Navigation Controller-->
         <scene sceneID="aQP-6x-jfA">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="paA-qk-vYg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kfp-BM-ASW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F10-CC-O9s">
@@ -92,7 +89,6 @@
                         <segue destination="4MJ-Qb-jTd" kind="relationship" relationship="rootViewController" id="FIY-3G-OGN"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="paA-qk-vYg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="14.492753623188406" y="83.705357142857139"/>
         </scene>
